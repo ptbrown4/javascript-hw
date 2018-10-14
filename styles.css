@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+.container {
+    align-content: center;
+}
+
+.h1 {
+    color: white;
+}
+
+.btn {
+    background-color: dimgray;
+    color: white;
+    justify-content: center;
+    font-size: 24px;
+    border-right-width: 28px;
+    border-left-width: 28px;
+    border-bottom-width: 28px;
+    border-top-width: 28px;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin: 0.3%;
+    width: 4.5em;
+}
+
+.btn.silver {
+    background-color: silver;
+    color: black;
+}
+
+.btn.orange {
+    background-color: orange;
+}
+
+.btn.big {
+    width: 9.5em;
+    border-radius: 50px, 50px, 50px, 50px;
+}
+
+.item-header {
+    color: white;
+    font-size: 60px;
+}
