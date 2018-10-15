@@ -43,5 +43,10 @@ body {
 
 .item-header {
     color: white;
-    font-size: 60px;
+    font-size: 42px;
+}
+
+input::placeholder {
+    color: white;
+    text-align: right;
 }
