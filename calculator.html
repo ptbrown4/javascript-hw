@@ -18,44 +18,39 @@
             </div>
         </div>
         <div class="row col-md-offset-3">
-            <input type="button" value="AC" onclick="clearInput()" class="btn silver">
-            <input type="button" value="+\-" onclick="useOperand()" class="btn silver">
-            <input type="button" value="%" onclick="useOperand()" class="btn silver">
-            <input type="button" value="&#247" onclick="useOperand()" class="btn silver">
+            <input type="button" value="AC" id="AC" onclick="clearInput()" class="btn silver">
+            <input type="button" value="+\-" id="+/-" onclick="useOperand()" class="btn silver">
+            <input type="button" value="%" id="%" onclick="useOperand()" class="btn silver">
+            <input type="button" value="&#247" id="&#247" onclick="useOperand()" class="btn silver">
         </div>
         <div class="row col-md-offset-3">
-            <input type="button" value="7" onclick="getNumber()" class="btn">
-            <input type="button" value="8" onclick="getNumber()" class="btn">
-            <input type="button" value="9" onclick="getNumber()" class="btn">
-            <input type="button" value="X" onclick="useOperand()" class="btn orange">
+            <input type="button" value="7" id="7" onclick="getNumberSeven()" class="btn">
+            <input type="button" value="8" id="8" onclick="getNumberEight()" class="btn">
+            <input type="button" value="9" id="9" onclick="getNumberNine()" class="btn">
+            <input type="button" value="X" id="X" onclick="useOperand()" class="btn orange">
         </div>
         <div class="row col-md-offset-3">
-            <input type="button" value="4" onclick="getNumber()" class="btn">
-            <input type="button" value="5" onclick="getNumber()" class="btn">
-            <input type="button" value="6" onclick="getNumber()" class="btn">
-            <input type="button" value="-" onclick="useOperand()" class="btn orange">
+            <input type="button" value="4" id="4" onclick="getNumberFour()" class="btn">
+            <input type="button" value="5" id="5" onclick="getNumberFive()" class="btn">
+            <input type="button" value="6" id="6" onclick="getNumberSix()" class="btn">
+            <input type="button" value="-" id="-" onclick="useOperand()" class="btn orange">
         </div>
         <div class="row col-md-offset-3">
-            <input type="button" value="1" onclick="getNumber()" class="btn">
-            <input type="button" value="2" onclick="getNumber()" class="btn">
-            <input type="button" value="3" onclick="getNumber()" class="btn">
-            <input type="button" value="+" onclick="useOperand()" class="btn orange">
+            <input type="button" value="1" id="1" onclick="getNumberOne()" class="btn">
+            <input type="button" value="2" id="2" onclick="getNumberTwo()" class="btn">
+            <input type="button" value="3" id="3" onclick="getNumberThree()" class="btn">
+            <input type="button" value="+" id="+" onclick="useOperand()" class="btn orange">
         </div>
         <div class="row col-md-offset-3">
-            <input type="button" value="0" onclick="getNumber()" class="btn">
-            <input type="button" value="." onclick="useDecimal()" class="btn">
-            <input type="button" value="&#8592" onclick="clearOnce()" class="btn">
-            <input type="button" value="=" onclick="computeOperation()" class="btn orange">
+            <input type="button" value="0" id="0" onclick="getNumberZero()" class="btn">
+            <input type="button" value="." id="." onclick="useDecimal()" class="btn">
+            <input type="button" value="&#8592" id="&#8592" onclick="clearOnce()" class="btn">
+            <input type="button" value="=" id="=" onclick="computeOperation()" class="btn orange">
         </div>
         </div>
         
 
     </body>
-    <script>
-        
-        
-        
-
-
-    </script>
+    <script src="calc.js">
+     </script>
 </html>
