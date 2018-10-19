@@ -1,8 +1,11 @@
-var myInput = document.getElementById(input);
+var myInput = document.getElementById("input");
 var myAnswer = document.getElementById(answer);
 
 function clearOnce(){
         myInput.value = myInput.value.substring(0, myInput.value.length - 1);
+    }
+    function clearInput() {
+        myInput = "";
     }
 
     function getNumberZero() {
@@ -16,7 +19,6 @@ function clearOnce(){
         console.log(document.getElementById("1").value);
         var input = document.getElementById("input");
         input.value = one;
-        document.classList.add("input::placeholder")
     }
     function getNumberTwo() {
         var two = document.getElementById("2").value;
@@ -66,8 +68,14 @@ function clearOnce(){
         var input = document.getElementById("input");
         input.value = nine;
     }
+
+
+    function evaluate() {
+        var currentExpression = myInput.value.substring(0, 15)
+    }
     
     // function useOperandMultiply() {
-    //     var multiply = 
+        var input = document.getElementById("input");
+        input.addEventListener
         
-    // }
+        
