@@ -8,6 +8,7 @@ body {
 
 .h1 {
     color: white;
+    margin: 2%;
 }
 
 .btn {
@@ -49,4 +50,19 @@ body {
 input::placeholder {
     color: white;
     text-align: right;
+}
+#inputone {
+    margin: 2%;
+}
+#inputtwo {
+    margin: 2%;
+}
+#answer {
+    margin: 2%;
+}
+#operations {
+    margin: 2%;
+}
+#equals {
+    margin: 2%;
 }
